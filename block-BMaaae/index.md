@@ -16,3 +16,9 @@ Write code to:-
 - delete sports database.
 - check which database you are connected to ?
 - connect to test database
+
+sports> db
+sports
+sports> use test
+switched to db test
+test> db.collection.renameCollection(target, dropTarget)
